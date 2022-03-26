@@ -27,6 +27,8 @@ Run the demo from a shell
 1. Clone the project to your local workstation
 2. Run either in the Windows PowerShell or Max/Linux bash
 
+Windows PowerShell
+
 ```bash
 cd AnalogGaugeWidgetPyQt
 virtualenv venv
