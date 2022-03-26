@@ -1,7 +1,8 @@
-# AnaloGaugeWidgetPyQt
+# AnaloGaugeWidgetPyQt6
 
-Custom QWidget 
-- compatible to PyQt4 and PyQt5
+Custom QWidget
+- Compatible with PyQt6 only
+- PyQt 4 & 5 versions can be cloned from the original project https://github.com/StefanHol/AnalogGaugeWidgetPyQt
 
 ![AnalogGaugeWidgetDemo Image](img/AnalogGaugeWidgetDemo.JPG?raw=true "AnalogGaugeWidgetDemo")
 
@@ -10,20 +11,38 @@ Custom QWidget
 - Show speed
 - fuel indicator
 - level indicator
-- many more
+- etc
 
-## How to impletemnt analogWidget to your QMainWindow
-1. Open your QtGUI MainWindow with QtDesigner
-2. add QWidget from Palette
-3. add custom widget to QWidget
-![AnalogGaugeWidgetDemo Image](img/3._Add_custom_widget.JPG?raw=true "Add custom widget")
+## Interface
 
-## Update Value Method
+### Update Value Method
 update_value(int) -> will also redraw the widget
 
-## Value Changed Signal
+### Value Changed Signal
 valueChanged(int)
 
-## Parameters
-- Just play with the demo
+## Demo & Parameters Selection
+
+Run the demo from a shell
+1. Clone the project to your local workstation
+2. Run either in the Windows PowerShell or Max/Linux bash
+
+```bash
+cd AnalogGaugeWidgetPyQt
+virtualenv venv
+venv\Scripts\activate
+pip install PyQt6
+python analoggaugewidget.py
+```
+
+Or Linux/Mac
+
+```bash
+cd AnalogGaugeWidgetPyQt
+python -m venv venv
+source venv/bin/activate
+pip install PyQt6
+python analoggaugewidget.py
+```
+
 ![AnalogGaugeWidgetDemo Image](img/Example_without_needle.JPG?raw=true "Add custom widget")
