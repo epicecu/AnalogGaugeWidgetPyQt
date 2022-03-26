@@ -1,13 +1,13 @@
 # AnalogGaugeWidgetPyQt6
 
-Custom QWidget
+Custom Analog guage widget for PyQt version 6
 - Compatible with PyQt6 only
 - PyQt 4 & 5 versions can be cloned from the original project https://github.com/StefanHol/AnalogGaugeWidgetPyQt
 
 ![AnalogGaugeWidgetDemo Image](img/AnalogGaugeWidgetDemo.JPG?raw=true "AnalogGaugeWidgetDemo")
 
 ## Usage:
-- Multiple vísualisatins
+- Multiple visualisations
 - Show speed
 - fuel indicator
 - level indicator
